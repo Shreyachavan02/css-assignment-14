@@ -1,0 +1,21 @@
+.coffee-logo{
+height:50px;
+width: 50px;
+}
+.nav-links{
+      background-color: #A67B5B;
+      color:white ;
+      box-shadow: solid black 10px;
+}
+.nav-text{
+    font: size 15px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 30px;
+}
+.nav-text-home{
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 850px;
+}
