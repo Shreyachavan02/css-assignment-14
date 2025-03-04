@@ -78,3 +78,36 @@
     transform: scale(1.05);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
 }
+.flyer {
+    background: #E8D8C4;
+    color: #4a2c2a;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.coffee-icon {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #ffcc00;
+}
+
+p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+
