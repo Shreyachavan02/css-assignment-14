@@ -1,0 +1,26 @@
+.heading{
+
+          background-color:#b57b4c ;
+         text-align: center;
+         height: 100px;
+         padding-top: 45px;
+         font-size: 50px;
+         color: white;
+         border-radius: 15px;
+
+         
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #F8F4E1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    
+
+.flex{
+    justify-content: center;
+}
