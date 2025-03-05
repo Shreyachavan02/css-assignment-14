@@ -1,12 +1,12 @@
 .menu-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-content: center;
     padding: 20px;
 }
 
-/* Styling for Menu Cards */
+
 .menu-card {
     background: #F8F4E1;
     border-radius: 10px;
@@ -44,3 +44,5 @@
 .menu-card:hover {
     transform: scale(1.05);
 }
+
+

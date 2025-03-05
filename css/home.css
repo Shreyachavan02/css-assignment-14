@@ -105,9 +105,22 @@ h1 {
     color: #ffcc00;
 }
 
-p {
+.p{
     font-size: 16px;
     margin: 8px 0;
 }
 
 
+.number{
+
+    color: black;
+    text-decoration-color: black;
+    
+}
+
+.email{
+
+color: black;
+text-decoration-color: black;
+
+}
