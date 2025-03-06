@@ -1,9 +1,10 @@
 .menu-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 
@@ -16,6 +17,7 @@
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease;
+    margin-right: 85px;
 }
 
 .menu-card img {
@@ -27,7 +29,7 @@
 
 .menu-card h2 {
     font-size: 22px;
-    color: #4a2c2a;
+    color:c;
 }
 
 .menu-card p {
@@ -43,6 +45,24 @@
 
 .menu-card:hover {
     transform: scale(1.05);
+
 }
 
+.order-btn{
+font-size: medium;
+height:40px;
+width: 100px;
+border-radius: 10px;
+font-size: 16px;
+background-color:#A67B5B;
+color: #eee9e5;
+border: 3px solid #eee9e5;
 
+}
+.order-btn:hover {
+
+    background-color: #803D3B;
+    color: #fef8f8;
+    border: 3px solid #803D3B;
+    
+}

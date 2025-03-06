@@ -1,29 +1,48 @@
-.coffee-logo{
-height:50px;
-width: 50px;
+.coffee-logo {
+    height: 50px;
+    width: 50px;
 }
-.nav-links{
-      background-color: #A67B5B;
-      color:white ;
-      box-shadow: solid black 10px;
+
+.nav-links {
+    background-color: #A67B5B;
+    color: rgb(255, 255, 255);
+    box-shadow: solid black 10px;
+
 }
-.nav-text{
-    font: size 15px;
-    color:rgb(0, 0, 0);
+
+
+.nav-text {
+    font-size: 17px;
+    color: rgb(244, 240, 240);
     text-decoration: none;
     margin: 30px;
+
 }
-.nav-text-home{
-    font-size:35px;
-    color:rgb(255, 255, 255);
+.nav-text:hover{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #f9f0f0;
+    transition: color 0.2s;
+    border-bottom: 4px double #f2f0ee;
+    padding-bottom: 2px;
+
+}
+
+
+.nav-text-home {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding-right: 850px;
 }
 
-body{
+body {
 
     background-color: #E8D8C4;
 
 
 
 }
+

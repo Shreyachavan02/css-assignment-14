@@ -1,16 +1,16 @@
-.img1{ 
-    width:1500px;
+.img1 {
+    width: 1500px;
     height: 680px;
     border-radius: 10px;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
     position: sticky;
-  
+
 }
 
 .btn {
-    display: inline-block; 
+    display: inline-block;
     margin-left: 700px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -26,6 +26,7 @@
     border: none;
     cursor: pointer;
 }
+
 .btn:hover {
     background-color: #cda2a2;
     transition: 0.5s;
@@ -41,6 +42,7 @@
     gap: 20px;
     background-color: #E8D8C4;
     border-radius: 10px;
+    color: #190e0d;
 }
 
 .item {
@@ -78,16 +80,19 @@
     transform: scale(1.05);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
 }
+
 .flyer {
     background: #E8D8C4;
-    color: #4a2c2a;
+    color: #190e0d;
     text-align: center;
     padding: 30px;
     border-radius: 15px;
-    width: 320px;
+    width: 350px;
     font-family: 'Poppins', sans-serif;
-    
+    border-color: #190e0d;
+
 }
+
 .coffee-icon {
     font-size: 18px;
     font-weight: bold;
@@ -105,22 +110,53 @@ h1 {
     color: #ffcc00;
 }
 
-.p{
+.p {
     font-size: 16px;
     margin: 8px 0;
 }
 
 
-.number{
+.number {
 
     color: black;
     text-decoration-color: black;
-    
 }
 
-.email{
+.email {
 
-color: black;
-text-decoration-color: black;
+    color: black;
+    text-decoration-color: black;
+}
 
+
+.offer {
+
+    font-size: 50px;
+    color: #521c1a;
+    text-align: center;
+}
+
+.order-text {
+
+    font-size: larger;
+    color: #803D3B;
+    text-align: center;
+
+}
+
+.container-card {
+
+    background-color: #F8F4E1;
+    padding: 20px;
+    width: 280px;
+    justify-content: center;
+    margin-left: 600px;
+    height: auto;
+    text-align:center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items:center;
+    border: 2px solid #efeaea;
 }
